@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Object name="VisIt">
+    <Field name="Version" type="string">2.12.2</Field>
+    <Object name="GUI">
+        <Object name="FileServerList">
+            <Field name="path" type="string">/datarepo/forashok/separation_10p4__nonspinning__vertBfield</Field>
+            <Field name="filter" type="string">*</Field>
+            <Field name="useCurrentDir" type="bool">true</Field>
+            <Field name="automaticFileGrouping" type="bool">true</Field>
+            <Field name="smartFileGrouping" type="bool">true</Field>
+            <Field name="showDotFiles" type="bool">false</Field>
+            <Object name="recentpaths">
+                <Field name="localhost" type="stringVector">"/home/aschoudhary" "/home/aschoudhary/Cactus/exe" "/home/aschoudhary/Streamline_project/python_scripts" "/home/aschoudhary/Plots/Blackhole_added_plots_topview" "/datarepo/forashok" "/home/aschoudhary/Cactus/exe/magnetizedTOV" "/datarepo/forashok/zero_Degrees_Rotation" "/datarepo/forashok/re_downloaded_data" "/datarepo/forashok/zero_Degrees_Rotation/BH_data" "/datarepo/forashok/particles-separation_10p4__nonspinning__vertBfield" "/datarepo/forashok/separation_10p4__nonspinning__vertBfield" "/home/aschoudhary/Streamline_project" "/home/aschoudhary/Streamline_project/visit_sessions" </Field>
+            </Object>
+        </Object>
+        <Object name="AppearanceAttributes">
+            <Field name="useSystemDefault" type="bool">true</Field>
+            <Field name="background" type="string">#c0c0c0</Field>
+            <Field name="foreground" type="string">#000000</Field>
+            <Field name="fontName" type="string">Helvetica,12,-1,5,50,0,0,0,0,0</Field>
+            <Field name="style" type="string">gtk</Field>
+            <Field name="orientation" type="int">0</Field>
+            <Field name="defaultForeground" type="string">#000000</Field>
+            <Field name="defaultBackground" type="string">#d4d0c8</Field>
+            <Field name="defaultFontName" type="string">Helvetica,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,1</Field>
+            <Field name="defaultStyle" type="string">Windows</Field>
+            <Field name="defaultOrientation" type="int">0</Field>
+        </Object>
+        <Object name="Animation">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">813</Field>
+            <Field name="width" type="int">276</Field>
+            <Field name="height" type="int">211</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Field name="postWhenShown" type="bool">false</Field>
+        <Object name="Annotation">
+            <Field name="x" type="int">363</Field>
+            <Field name="y" type="int">108</Field>
+            <Field name="width" type="int">510</Field>
+            <Field name="height" type="int">720</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="activeTab" type="int">5</Field>
+        </Object>
+        <Object name="File open">
+            <Field name="x" type="int">656</Field>
+            <Field name="y" type="int">291</Field>
+            <Field name="width" type="int">607</Field>
+            <Field name="height" type="int">441</Field>
+            <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Information">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">24</Field>
+            <Field name="width" type="int">1855</Field>
+            <Field name="height" type="int">1028</Field>
+            <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Material Reconstruction Options">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">397</Field>
+            <Field name="width" type="int">426</Field>
+            <Field name="height" type="int">382</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Rendering options">
+            <Field name="x" type="int">114</Field>
+            <Field name="y" type="int">200</Field>
+            <Field name="width" type="int">414</Field>
+            <Field name="height" type="int">614</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="View">
+            <Field name="x" type="int">762</Field>
+            <Field name="y" type="int">82</Field>
+            <Field name="width" type="int">362</Field>
+            <Field name="height" type="int">536</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="activeTab" type="int">2</Field>
+        </Object>
+        <Object name="MainWin">
+            <Field name="x" type="int">322</Field>
+            <Field name="y" type="int">53</Field>
+            <Field name="width" type="int">352</Field>
+            <Field name="height" type="int">828</Field>
+            <Field name="SPLITTER_VALUES_V2" type="floatVector">0 0.9943662 0 </Field>
+        </Object>
+        <Object name="Mesh plot attributes">
+            <Field name="x" type="int">282</Field>
+            <Field name="y" type="int">246</Field>
+            <Field name="width" type="int">384</Field>
+            <Field name="height" type="int">507</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Pseudocolor plot attributes">
+            <Field name="x" type="int">95</Field>
+            <Field name="y" type="int">114</Field>
+            <Field name="width" type="int">625</Field>
+            <Field name="height" type="int">549</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Volume plot attributes">
+            <Field name="x" type="int">174</Field>
+            <Field name="y" type="int">222</Field>
+            <Field name="width" type="int">730</Field>
+            <Field name="height" type="int">622</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Box operator attributes">
+            <Field name="x" type="int">618</Field>
+            <Field name="y" type="int">474</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">286</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="IntegralCurve operator attributes">
+            <Field name="x" type="int">263</Field>
+            <Field name="y" type="int">191</Field>
+            <Field name="width" type="int">594</Field>
+            <Field name="height" type="int">777</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Reflect operator attributes">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">401</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">504</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Replicate operator attributes">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">375</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Field name="plotDatabases" type="stringVector">"localhost:/datarepo/forashok/separation_10p4__nonspinning__vertBfield/Poynz.file_* database" </Field>
+        <Object name="TimeFormat">
+            <Field name="displayMode" type="string">Cycles</Field>
+            <Field name="precision" type="int">5</Field>
+        </Object>
+        <Field name="showSelectedFiles" type="bool">false</Field>
+        <Field name="allowFileSelectionChange" type="bool">true</Field>
+        <Field name="enableWarningMessagePopups" type="bool">true</Field>
+    </Object>
+</Object>

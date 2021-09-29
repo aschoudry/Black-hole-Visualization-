@@ -1,0 +1,2 @@
+grep origin *.ah1.gp | sort -V > BH1_origin.txt
+sed 's/^[^=]*=//g' BH1_origin.txt > BH1_origin-parsed.txt 

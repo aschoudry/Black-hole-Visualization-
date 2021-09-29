@@ -1,0 +1,13 @@
+DefineScalarExpression("Bx_subtract_moMode", "Bx - Cff_Bx_l0*Y_l0_m0 - Cff_Bx_l1*Y_l1_m0 - Cff_Bx_l2*Y_l2_m0 - Cff_Bx_l3*Y_l3_m0 - Cff_Bx_l4*Y_l4_m0 - Cff_Bx_l5*Y_l5_m0 - Cff_Bx_l6*Y_l6_m0 -Cff_Bx_l7*Y_l7_m0 -Cff_Bx_l8*Y_l8_m0")
+DefineScalarExpression("By_subtract_moMode", "By  - Cff_By_l0*Y_l0_m0 - Cff_By_l1*Y_l1_m0 - Cff_By_l2*Y_l2_m0 - Cff_By_l3*Y_l3_m0 - Cff_By_l4*Y_l4_m0 - Cff_By_l5*Y_l5_m0 - Cff_By_l6*Y_l6_m0 -Cff_By_l7*Y_l7_m0 -Cff_By_l8*Y_l8_m0")
+DefineScalarExpression("Bz_subtract_moMode", "Bz  - Cff_Bz_l0*Y_l0_m0 - Cff_Bz_l1*Y_l1_m0 - Cff_Bz_l2*Y_l2_m0 - Cff_Bz_l3*Y_l3_m0 - Cff_Bz_l4*Y_l4_m0 - Cff_Bz_l5*Y_l5_m0 - Cff_Bz_l6*Y_l6_m0 -Cff_Bz_l7*Y_l7_m0 -Cff_Bz_l8*Y_l8_m0")
+DefineScalarExpression("Ex_subtract_moMode", "Ex - Cff_Ex_l0*Y_l0_m0 - Cff_Ex_l1*Y_l1_m0 - Cff_Ex_l2*Y_l2_m0 - Cff_Ex_l3*Y_l3_m0 - Cff_Ex_l4*Y_l4_m0 - Cff_Ex_l5*Y_l5_m0 - Cff_Ex_l6*Y_l6_m0 -Cff_Ex_l7*Y_l7_m0 -Cff_Ex_l8*Y_l8_m0 ")
+DefineScalarExpression("Ey_subtract_moMode", "Ey - Cff_Ey_l0*Y_l0_m0 - Cff_Ey_l1*Y_l1_m0 - Cff_Ey_l2*Y_l2_m0 - Cff_Ey_l3*Y_l3_m0 - Cff_Ey_l4*Y_l4_m0 - Cff_Ey_l5*Y_l5_m0 - Cff_Ey_l6*Y_l6_m0 -Cff_Ey_l7*Y_l7_m0 -Cff_Ey_l8*Y_l8_m0 ")
+DefineScalarExpression("Ez_subtract_moMode", "Ez - Cff_Ez_l0*Y_l0_m0 - Cff_Ez_l1*Y_l1_m0 - Cff_Ez_l2*Y_l2_m0 - Cff_Ez_l3*Y_l3_m0 - Cff_Ez_l4*Y_l4_m0 - Cff_Ez_l5*Y_l5_m0 - Cff_Ez_l6*Y_l6_m0 -Cff_Ez_l7*Y_l7_m0 -Cff_Ez_l8*Y_l8_m0")
+
+DefineVectorExpression("Bvec_subtract_moMode", "{Bx_subtract_moMode, By_subtract_moMode, Bz_subtract_moMode}")
+DefineVectorExpression("Evec_subtract_moMode", "{Ex_subtract_moMode, Ey_subtract_moMode, Ez_subtract_moMode}")
+
+DefineScalarExpression("Poytning_outgoing_flux_carpet_data_m0_subtracted", "dot(radial_vec_carpet, cross(Bvec_subtract_moMode, Evec_subtract_moMode))/100.0")
+
+

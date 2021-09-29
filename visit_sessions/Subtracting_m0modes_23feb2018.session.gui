@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<Object name="VisIt">
+    <Field name="Version" type="string">2.12.2</Field>
+    <Object name="GUI">
+        <Object name="FileServerList">
+            <Field name="path" type="string">/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/blandford_znajeck_studies-giraffe-hr/separation_10p4__nonspinning__vertBfield</Field>
+            <Field name="filter" type="string">*</Field>
+            <Field name="useCurrentDir" type="bool">true</Field>
+            <Field name="automaticFileGrouping" type="bool">true</Field>
+            <Field name="smartFileGrouping" type="bool">true</Field>
+            <Field name="showDotFiles" type="bool">false</Field>
+            <Object name="recentpaths">
+                <Field name="localhost" type="stringVector">"/home/aschoudhary/visit" "/home/aschoudhary" "/" "/datarepo" "/datarepo/dataforashok" "/datarepo/dataforashok/Aug18_2017_GiRaffedata" "/datarepo/dataforashok/Aug18_2017_GiRaffedata/blandford_znajeck_studies-giraffe-hr-rot15-redo-Poyn" "/datarepo/dataforashok/Aug18_2017_GiRaffedata/blandford_znajeck_studies-giraffe-hr-rot15-redo-Poyn/separation_10p4__nonspinning__vertBfield" "/datarepo/dataforashok/Aug18_2017_GiRaffedata/blandford_znajeck_studies-giraffe-hr-rot45-redo-Poyn" "/datarepo/dataforashok/Aug18_2017_GiRaffedata/blandford_znajeck_studies-giraffe-hr-rot45-redo-Poyn/separation_10p4__nonspinning__vertBfield" "/home/aschoudhary/Streamline_project" "/home/aschoudhary/Streamline_project/visit_sessions" "/home/aschoudhary/start_visit" "/datarepo/forashok" "/datarepo/forashok/separation_10p4__nonspinning__vertBfield" "/home/aschoudhary/Cactus/exe" "/home/aschoudhary/Streamline_project/python_scripts" "/home/aschoudhary/Plots/Blackhole_added_plots_topview" "/home/aschoudhary/Cactus/exe/magnetizedTOV" "/datarepo/forashok/zero_Degrees_Rotation" "/datarepo/forashok/re_downloaded_data" "/datarepo/forashok/zero_Degrees_Rotation/BH_data" "/datarepo/forashok/particles-separation_10p4__nonspinning__vertBfield" "/datarepo/dataforashok/separation_10p4__nonspinning__vertBfield" "/datarepo/dataforashok/blandford_znajeck_studies-giraffe-hr-rot15-redo-Poyn" "/datarepo/dataforashok/blandford_znajeck_studies-giraffe-hr-rot15-redo-Poyn/separation_10p4__nonspinning__vertBfield" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/blandford_znajeck_studies-giraffe-hr" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/blandford_znajeck_studies-giraffe-hr/separation_10p4__nonspinning__vertBfield" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/blandford_znajeck_studies-giraffe-hr-rot0-redo-Poyn" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/blandford_znajeck_studies-giraffe-hr-rot0-redo-Poyn/separation_10p4__nonspinning__vertBfield" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/Electrifield_magneticfield_data_for_aligned_magneticfied" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/Electrifield_magneticfield_data_for_aligned_magneticfied_uniformdist" "/home" "/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/E_B_V_field_data_extracted_on_sphere104M_2feb2018" </Field>
+            </Object>
+        </Object>
+        <Object name="AppearanceAttributes">
+            <Field name="useSystemDefault" type="bool">true</Field>
+            <Field name="background" type="string">#c0c0c0</Field>
+            <Field name="foreground" type="string">#000000</Field>
+            <Field name="fontName" type="string">Helvetica,12,-1,5,50,0,0,0,0,0</Field>
+            <Field name="style" type="string">gtk</Field>
+            <Field name="orientation" type="int">0</Field>
+            <Field name="defaultForeground" type="string">#000000</Field>
+            <Field name="defaultBackground" type="string">#d4d0c8</Field>
+            <Field name="defaultFontName" type="string">Helvetica,12,-1,5,50,0,0,0,0,0,12,-1,5,50,0,0,0,0,1</Field>
+            <Field name="defaultStyle" type="string">Windows</Field>
+            <Field name="defaultOrientation" type="int">0</Field>
+        </Object>
+        <Object name="Annotation">
+            <Field name="x" type="int">1400</Field>
+            <Field name="y" type="int">-42</Field>
+            <Field name="width" type="int">510</Field>
+            <Field name="height" type="int">720</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="activeTab" type="int">4</Field>
+        </Object>
+        <Field name="postWhenShown" type="bool">false</Field>
+        <Object name="Appearance">
+            <Field name="x" type="int">75</Field>
+            <Field name="y" type="int">496</Field>
+            <Field name="width" type="int">257</Field>
+            <Field name="height" type="int">240</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Color tables">
+            <Field name="x" type="int">193</Field>
+            <Field name="y" type="int">96</Field>
+            <Field name="width" type="int">363</Field>
+            <Field name="height" type="int">679</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="currentColorTable" type="string">hot</Field>
+        </Object>
+        <Object name="Commands">
+            <Field name="x" type="int">1125</Field>
+            <Field name="y" type="int">268</Field>
+            <Field name="width" type="int">795</Field>
+            <Field name="height" type="int">614</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="macroStorageMode" type="int">0</Field>
+            <Field name="macroAppend" type="bool">false</Field>
+        </Object>
+        <Object name="Expressions">
+            <Field name="x" type="int">478</Field>
+            <Field name="y" type="int">99</Field>
+            <Field name="width" type="int">756</Field>
+            <Field name="height" type="int">548</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="File information">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">24</Field>
+            <Field name="width" type="int">1855</Field>
+            <Field name="height" type="int">1056</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="File open">
+            <Field name="x" type="int">450</Field>
+            <Field name="y" type="int">291</Field>
+            <Field name="width" type="int">1020</Field>
+            <Field name="height" type="int">441</Field>
+            <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Information">
+            <Field name="x" type="int">55</Field>
+            <Field name="y" type="int">-14</Field>
+            <Field name="width" type="int">1855</Field>
+            <Field name="height" type="int">1028</Field>
+            <Field name="visible" type="bool">false</Field>
+        </Object>
+        <Object name="Pick">
+            <Field name="x" type="int">212</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">340</Field>
+            <Field name="height" type="int">771</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+            <Field name="autoShow" type="bool">true</Field>
+            <Field name="savePicks" type="bool">false</Field>
+            <Field name="userMaxTabs" type="int">8</Field>
+            <Field name="activeOptionsTab" type="int">0</Field>
+        </Object>
+        <Object name="Query">
+            <Field name="x" type="int">566</Field>
+            <Field name="y" type="int">364</Field>
+            <Field name="width" type="int">534</Field>
+            <Field name="height" type="int">634</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Selections">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">-4</Field>
+            <Field name="width" type="int">865</Field>
+            <Field name="height" type="int">670</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Set save options">
+            <Field name="x" type="int">65</Field>
+            <Field name="y" type="int">24</Field>
+            <Field name="width" type="int">397</Field>
+            <Field name="height" type="int">627</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Subset">
+            <Field name="x" type="int">487</Field>
+            <Field name="y" type="int">311</Field>
+            <Field name="width" type="int">488</Field>
+            <Field name="height" type="int">339</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="MainWin">
+            <Field name="x" type="int">196</Field>
+            <Field name="y" type="int">125</Field>
+            <Field name="width" type="int">352</Field>
+            <Field name="height" type="int">917</Field>
+            <Field name="SPLITTER_VALUES_V2" type="floatVector">0 0.9949937 0 </Field>
+        </Object>
+        <Object name="Contour plot attributes">
+            <Field name="x" type="int">139</Field>
+            <Field name="y" type="int">332</Field>
+            <Field name="width" type="int">430</Field>
+            <Field name="height" type="int">720</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Mesh plot attributes">
+            <Field name="x" type="int">292</Field>
+            <Field name="y" type="int">284</Field>
+            <Field name="width" type="int">384</Field>
+            <Field name="height" type="int">507</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Parallel Coordinates plot attributes">
+            <Field name="x" type="int">423</Field>
+            <Field name="y" type="int">119</Field>
+            <Field name="width" type="int">379</Field>
+            <Field name="height" type="int">598</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Pseudocolor plot attributes">
+            <Field name="x" type="int">163</Field>
+            <Field name="y" type="int">275</Field>
+            <Field name="width" type="int">625</Field>
+            <Field name="height" type="int">549</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Subset plot attributes">
+            <Field name="x" type="int">274</Field>
+            <Field name="y" type="int">116</Field>
+            <Field name="width" type="int">389</Field>
+            <Field name="height" type="int">720</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Vector plot attributes">
+            <Field name="x" type="int">136</Field>
+            <Field name="y" type="int">310</Field>
+            <Field name="width" type="int">578</Field>
+            <Field name="height" type="int">385</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Volume plot attributes">
+            <Field name="x" type="int">73</Field>
+            <Field name="y" type="int">258</Field>
+            <Field name="width" type="int">730</Field>
+            <Field name="height" type="int">622</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Box operator attributes">
+            <Field name="x" type="int">263</Field>
+            <Field name="y" type="int">434</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">286</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Cylinder operator attributes">
+            <Field name="x" type="int">417</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">184</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="DeferExpression operator attributes">
+            <Field name="x" type="int">407</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">111</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Displace operator attributes">
+            <Field name="x" type="int">331</Field>
+            <Field name="y" type="int">463</Field>
+            <Field name="width" type="int">366</Field>
+            <Field name="height" type="int">137</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Dual Mesh operator attributes">
+            <Field name="x" type="int">417</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">403</Field>
+            <Field name="height" type="int">106</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="External Surface operator attributes">
+            <Field name="x" type="int">417</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">130</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Flux operator attributes">
+            <Field name="x" type="int">385</Field>
+            <Field name="y" type="int">582</Field>
+            <Field name="width" type="int">377</Field>
+            <Field name="height" type="int">164</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="IntegralCurve operator attributes">
+            <Field name="x" type="int">161</Field>
+            <Field name="y" type="int">171</Field>
+            <Field name="width" type="int">600</Field>
+            <Field name="height" type="int">777</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Inverse Ghost Zone operator attributes">
+            <Field name="x" type="int">210</Field>
+            <Field name="y" type="int">128</Field>
+            <Field name="width" type="int">350</Field>
+            <Field name="height" type="int">250</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="LCS operator attributes">
+            <Field name="x" type="int">425</Field>
+            <Field name="y" type="int">87</Field>
+            <Field name="width" type="int">609</Field>
+            <Field name="height" type="int">826</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Lineout operator attributes">
+            <Field name="x" type="int">427</Field>
+            <Field name="y" type="int">0</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">267</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Poincare operator attributes">
+            <Field name="x" type="int">307</Field>
+            <Field name="y" type="int">65</Field>
+            <Field name="width" type="int">598</Field>
+            <Field name="height" type="int">619</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Radial Resample operator attributes">
+            <Field name="x" type="int">241</Field>
+            <Field name="y" type="int">404</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">364</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Reflect operator attributes">
+            <Field name="x" type="int">75</Field>
+            <Field name="y" type="int">439</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">504</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Replicate operator attributes">
+            <Field name="x" type="int">75</Field>
+            <Field name="y" type="int">38</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">375</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Resample operator attributes">
+            <Field name="x" type="int">90</Field>
+            <Field name="y" type="int">314</Field>
+            <Field name="width" type="int">452</Field>
+            <Field name="height" type="int">491</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="SPH Resample operator attributes">
+            <Field name="x" type="int">123</Field>
+            <Field name="y" type="int">222</Field>
+            <Field name="width" type="int">446</Field>
+            <Field name="height" type="int">398</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Smooth operator attributes">
+            <Field name="x" type="int">162</Field>
+            <Field name="y" type="int">538</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">260</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Spherical Slice operator attributes">
+            <Field name="x" type="int">546</Field>
+            <Field name="y" type="int">303</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">134</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Stagger operator attributes">
+            <Field name="x" type="int">291</Field>
+            <Field name="y" type="int">439</Field>
+            <Field name="width" type="int">345</Field>
+            <Field name="height" type="int">160</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Object name="Transform operator attributes">
+            <Field name="x" type="int">284</Field>
+            <Field name="y" type="int">426</Field>
+            <Field name="width" type="int">439</Field>
+            <Field name="height" type="int">399</Field>
+            <Field name="visible" type="bool">false</Field>
+            <Field name="posted" type="bool">false</Field>
+        </Object>
+        <Field name="plotDatabases" type="stringVector">"localhost:/datarepo/dataforashok/Oct21_zero_inclination_poynting_data/blandford_znajeck_studies-giraffe-hr/separation_10p4__nonspinning__vertBfield/B_V_xyz.file_* database" </Field>
+        <Object name="TimeFormat">
+            <Field name="displayMode" type="string">Cycles</Field>
+            <Field name="precision" type="int">5</Field>
+        </Object>
+        <Field name="showSelectedFiles" type="bool">false</Field>
+        <Field name="allowFileSelectionChange" type="bool">true</Field>
+        <Field name="enableWarningMessagePopups" type="bool">true</Field>
+    </Object>
+</Object>
